@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+body {
+    font-family: Avenir;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.promo-banner {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+
+}
+
+a,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.btn-close {
+    position: absolute;
+    right: 1.5rem;
+}
+
+.divider {
+    background-color: aquamarine;
+}
+
+.menu-toggle {}
