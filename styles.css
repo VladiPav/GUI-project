@@ -5,37 +5,42 @@ body {
 
 a,
 body {
-    font-family: Avenir;
-}
-
-.visually-hidden {
-    display: none;
+    font-family: 'Avenir', sans-serif;
+    text-decoration: none;
 }
 
 .promo-banner {
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
-
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: #7FC6AC;
 }
 
-a,
 a:visited {
     color: black;
+    text-decoration: none;
 }
 
 a:hover {
     color: blue;
-    text-decoration: underline blue;
+    text-decoration: underline blue !important;
 }
 
 .btn-close {
     position: absolute;
-    right: 1.5rem;
+    right: 0.5rem;
 }
 
 .divider {
-    background-color: aquamarine;
+    background-color: #7FC6AC;
+    height: 0.25rem;
 }
 
-.menu-toggle {}
+
+#header-search {
+    border: 2px solid #7FC6AC;
+    border-radius: 5rem;
+    padding: 0.75rem;
+    font-size: 1.5rem;
+}
